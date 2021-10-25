@@ -5,7 +5,7 @@ This repository contains data and python notebooks associated with Krishnarao et
 
 python notebooks titled by the figure number in the paper are used to recreate the paper figures. 
 
-The Summary Fits folder contains images and a summary text file of all the results of our Voigt profile fitting of 28 HST/COS sightlines. 
+The SummaryResults folder contains images and a summary text file of all the results of our Voigt profile fitting of 28 HST/COS sightlines. 
 
 There is a folder for each source analyzed:
 In each folder there is a txt file that contains detailed notes and all fit parameters for ions. 
