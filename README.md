@@ -3,7 +3,21 @@ Observational Evidence for a Massive Magellanic Corona (Krishnarao et al. 2022)
 
 This repository contains data and python notebooks associated with Krishnarao et al. (2022): Observational Evidence for a Massive Magellanic Corona
 
+## Key Data Tables
+Data/FIT_AND_CLOUDY_RESULTS.fits
+    Table that contains all voigtfit and cloudy model results for fit absorption line components flagged as possibly part of the Magellanic System
+    
+Data/SUMMED_ION_COLUMNS_wHII.fits
+    Summed ion column densities of all ions for each source. 
+    For low ions, this is all components with v>150 km/s
+    For C IV and Si IV, this is all components with v>150 km/s and >1dex excess of observed column than Cloudy model predictions
+    For OVI, this is all components with v>150 km/s
+    Column density errors of -1 imply upper limits
+
 python notebooks titled by the figure number in the paper are used to recreate the paper figures. 
+
+
+
 
 The SummaryResults folder contains images and a summary text file of all the results of our Voigt profile fitting of 28 HST/COS sightlines. 
 
